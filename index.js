@@ -16,7 +16,7 @@ module.exports = function bootLoopBackApp(app, options, callback) {
 
 function getConfigFromMiddle(appId,callback){
   var options={
-    url:"http://127.0.0.1/explorer/getConfig",
+    url:"http://127.0.0.1:5001/explorer/getConfig",
     method:"POST",
     json:true,
     headers:{
